@@ -14,10 +14,6 @@ int main(void)
 	threshold(img, img, 127, 255, THRESH_BINARY);
 	//Canny(img, img, 50, 100);
 
-	imshow("Contours", img);
-
-	waitKey(0);
-
 	vector<vector<Point> > contours;
 	vector<Vec4i> hierarchy;
 
